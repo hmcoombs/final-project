@@ -11,6 +11,7 @@
 }
 .border {
     border: 5px double #01141a;
+    
 }
 .border1 {
     border: 5px double #7abfb3
@@ -52,7 +53,10 @@ nav, footer {
     margin: 10px; 
     background-color: #3ca7bb;
 }
-
+footer {
+    text-align: left;
+    
+}
 nav {
     height: 40px;
 }
@@ -65,7 +69,7 @@ nav {
     padding: 10px;
 }
 #github {
-    color: yellow
+    color: #01141a
 }
 .column1 {
     width: 20%;
