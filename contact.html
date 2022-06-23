@@ -47,8 +47,30 @@
 
             <div class="float-left" id="section-article_column">
                 <section class="border1">
-                    <br><br><br>
-                    <h2>Section</h2>
+                   <form action="action_page.php">
+                        <label for="fname">First Name</label>
+                        <br><br>
+                        <input type="text" id="fname" name="firstname" placeholder="your name..">
+                        <br><br>
+                        <label for="lname">Last Name</label>
+                        <br><br>
+                        <input type="text" id="lname" name="lastname" placeholder="your last name..">
+                        <br><br>
+                        <label for="country">Country</label>
+                        <br><br>
+                        <select name="country" id="country">
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                        <br><br>
+                        <label for="subject">Ask a question</label>
+                        <br><br>
+                        <textarea name="Subject" id="subject" placeholder="Write Something..." 
+                        cols="30" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="Submit" id="push">
+
+                   </form>
                 </section>
             
                 <article class="border1">

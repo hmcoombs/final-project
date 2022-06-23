@@ -79,19 +79,19 @@ nav {
     clear: both;
 }
 section {
-    height: 350px; text-align: center; padding: 0px; 
-    margin: 40px 20px 10px 70px;
+    height: 450px; text-align: center; padding: 50px; 
+    margin: 20px 20px 10px 70px;
     box-shadow: 5px 5px #01141a;
 }
 article {
-    height: 350px; text-align: center; padding: 0px; 
+    height: 250px; text-align: center; padding: 0px; 
     margin: 10px 20px 10px 70px;
-    box-shadow: 5px 5px #238c6e;
+    box-shadow: 5px 5px #01141a;
 }
 aside {
     height: 722px; text-align: center; padding: 0px; 
-    margin: 40px 50px 10px 10px;
-    box-shadow: 5px 5px #238c6e;
+    margin: 20px 50px 10px 10px;
+    box-shadow: 5px 5px #01141a;
 }
 #section-article_column {
     width: 65%;
@@ -104,7 +104,7 @@ h1, h2, h3 {
     /*text-shadow: 5px 5px #7abfb3;*/
 }
 h2 {
-   background-color: rgba(60, 167, 187, .9);
+    /*background-color: rgba(60, 167, 187, .9);*/
     color: black;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
@@ -115,6 +115,13 @@ p {
     background-color: rgba(60, 167, 187, .9);
     font-size:larger;
 }
+/*For form style */
+input [type=text], label, input, select, textarea {
+    width: 100%;
+    border: 2px solid #3ca7bb;
+    border-radius: 4px;
+}
+    
 .column {
     float: left;
     width: 25%;
