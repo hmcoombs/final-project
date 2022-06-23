@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=raleway');
+@import url('https://fonts.googleapis.com/css?family=volkhov');
+
 .margin { 
-    border: 10px ridge #238c6e;
+    border: 10px ridge #3ca7bb;
 }
 .marginspace {
-    margin-top:10px; 
-    margin-right: 20;
-    margin-bottom: 100px;
-    margin-left: 20px;
-    position: sticky; top: 10px;
+    margin: 10px 20px 100px 20px;
+    position:sticky;
+    top: 10px;
 }
 .border {
     border: 5px double #01141a;
@@ -27,7 +28,7 @@ a:visited{
     color: black;
 }
 a:hover{
-    background-color: antiquewhite;
+    background-color: #d1dbdc;
     text-decoration: underline;
 }
 .nav-left {
@@ -43,10 +44,28 @@ a:hover{
     margin-top: 0px;
     margin-right: 20px;
     list-style-type: none;
-  }
+}
 nav, footer {
-    height: 40px; text-align: center; padding: 0px; margin: 10px; 
+    /*height: 40px;*/ 
+    text-align: center; 
+    padding: 0px; 
+    margin: 10px; 
     background-color: #3ca7bb;
+}
+
+nav {
+    height: 40px;
+}
+.footer-left {
+    margin-top: 0px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.fa-brands {
+    padding: 10px;
+}
+#github {
+    color: yellow
 }
 .column1 {
     width: 20%;
@@ -55,15 +74,23 @@ nav, footer {
     float: right;
     width: 50%;
 }
+
 .row:after {
     clear: both;
 }
-section, article {
-    height: 350px; text-align: center; padding: 0px; margin: 10px; 
+section {
+    height: 350px; text-align: center; padding: 0px; 
+    margin: 40px 20px 10px 70px;
+    box-shadow: 5px 5px #01141a;
+}
+article {
+    height: 350px; text-align: center; padding: 0px; 
+    margin: 10px 20px 10px 70px;
     box-shadow: 5px 5px #238c6e;
 }
 aside {
-    height: 722px; text-align: center; padding: 0px; margin: 10px; 
+    height: 722px; text-align: center; padding: 0px; 
+    margin: 40px 50px 10px 10px;
     box-shadow: 5px 5px #238c6e;
 }
 #section-article_column {
@@ -74,12 +101,25 @@ aside {
 }
 h1, h2, h3 {
     color: #238c6e;
-    text-shadow: 5px 5px #7abfb3;
+    /*text-shadow: 5px 5px #7abfb3;*/
+}
+h2 {
+   background-color: rgba(60, 167, 187, .9);
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+    color: #01141a;
+    background-color: rgba(60, 167, 187, .9);
+    font-size:larger;
 }
 .column {
     float: left;
     width: 25%;
     height: 500px;
+    margin-top: 40px;
 }
 #box1 {
     background-color: darkkhaki;
