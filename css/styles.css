@@ -5,7 +5,7 @@
     border: 10px ridge #3ca7bb;
 }
 .marginspace {
-    margin: 10px 20px 100px 20px;
+    margin: 5px 20px 85px 20px;
     position:sticky;
     top: 10px;
 }
@@ -23,7 +23,7 @@
     float: left;
 }
 .hero {
-    height: 500px;
+    height: 650px;
     background-image: url("/img/puppies\ on\ stairs1.jpg");
     background-size: cover;
     background-position: center;
@@ -45,6 +45,9 @@ a:hover{
 .nav-right {
     float: right
 }
+.navtext {
+    float: left;
+}
 .clearfloats {
     clear: both;
 }
@@ -53,6 +56,7 @@ a:hover{
     margin-right: 20px;
     list-style-type: none;
 }
+
 nav, footer {
     /*height: 40px;*/ 
     text-align: center; 
@@ -116,7 +120,7 @@ h1, h2, h3 {
     
 }
 h2 {
-    /*background-color: rgba(60, 167, 187, .9);*/
+    background-color: rgba(60, 167, 187, .9);
     color: black;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
