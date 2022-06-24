@@ -167,3 +167,12 @@ input [type=text], label, input, select, textarea {
     clear: both;
 }
 
+
+#paw-border{
+    background-image: url("/img/dog-tracks-frame-.jpg");
+    background-size: cover; 
+}
+
+#grad1 {
+    background-image: linear-gradient(to right, #d1dbdc,#3ca7bb, #7abfb3, #d1dbdc);
+}
