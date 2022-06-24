@@ -22,6 +22,13 @@
 .float-left {
     float: left;
 }
+.hero {
+    height: 500px;
+    background-image: url("/img/puppies\ on\ stairs1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 5px;
+}
 a:link{
     text-decoration: none;    
 }
@@ -93,7 +100,7 @@ article {
     box-shadow: 5px 5px #01141a;
 }
 aside {
-    height: 722px; text-align: center; padding: 0px; 
+    height: 750px; text-align: center; padding: 0px; 
     margin: 20px 50px 10px 10px;
     box-shadow: 5px 5px #01141a;
 }
@@ -159,3 +166,4 @@ input [type=text], label, input, select, textarea {
 .row:after {
     clear: both;
 }
+
