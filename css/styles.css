@@ -24,7 +24,7 @@
 }
 .hero {
     height: 650px;
-    background-image: url("/img/puppies-on-stairs1.jpg");
+    background-image: url("../img/puppies-on-stairs1.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 5px;
@@ -169,7 +169,7 @@ input [type=text], label, input, select, textarea {
 
 
 #paw-border{
-    background-image: url("/img/dog-tracks-frame-.jpg");
+    background-image: url("../img/dog-tracks-frame-.jpg");
     background-size: cover; 
 }
 
